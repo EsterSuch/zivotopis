@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #4b4d52;
+  color: #10cbd8;
+  text-decoration: none;
+  padding: 0 10%;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: 'Montserrat', 'Source Sans Pro', sans-serif;
+  
+  height: 100vh;
+}
+
+/*menu*/
+
+.menu {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 80%;
+}
+
+.menu a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  color: #10cbd8;
+  letter-spacing: 0.8px;
+}
+
+.menu .jmeno {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.menu a:hover, .menu .active {
+  background-color:#10cbd8;
+  color: white;
+  transition: 2s;
+}
+
+
+.odkazy {
+  float: right;
+}
+
+/*CSS pro zbytek stránky*/
+.main {
+  margin-top: 80px;
+}
+
+p {
+text-align: justify;
+letter-spacing: 0.2px;
+}
+
+/*3 boxy s cíly na letošní rok*/
+h2{
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+}
+.cil{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px; 
+}
+
+.box{
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  color: #f149b3;
+  font-weight: bold;
+  margin: 0px 20px;
+}
+
+.box p{
+  text-align: center;
+}
+
+.vypln{
+  height: 300px;
+}
+
+/*patička*/
+footer {
+  font-size: 25px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  clear: left;
+}
+
+
+/*stránka Kontakty*/
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.social img{
+  margin: 20px 10px 10px 0px;
+  width: 120px;
+  height: 120px;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  text-align: center;
+  margin: 20px 0;
+}
+form input, textarea{
+  border-radius: 5px;
+  border: 2px solid #10cbd8;
+  margin-top: 10px;
+  padding: 3px;
+  width: 200px;
+ }
+
+input[type=submit] {
+  background: #10cbd8;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px;
+  width: 100px;
+  border: 2px solid #10cbd8;
+}
+
+input[type=submit]:hover {
+  background: white;
+  color: #10cbd8;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px;
+  width: 100px;
+  border: 2px solid #10cbd8;
+}
+
+/*stránka o mě a IT*/
+.moje img{
+  width: 25%;
+  border-radius: 15px;
+  float: left;
+  margin: 0px 20px 20px 0px;
+ }
+
+.popis, .coumim{
+  margin-top: 80px;
+}
+
+.seznamit, .bloudil{
+  margin-top: 15px;
+}
+.seznamit ul li{
+  text-align: center;
+  list-style-type: none;
+}
+
+.bloudil a{
+  text-decoration: none;
+  color: #10D817;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+table{
+  border-spacing: 0px;
+  margin-top: 15px;
+  justify-content: center;
+  display: flex;
+  }
+
+th, td {
+  border-bottom: 1px solid #f149b3;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.sport{
+  text-align: center;
+  padding-left: 15px;
+}
+
+.zivotopis, .zivotopis a {
+  text-decoration: none;
+  text-align: center;
+  color:#10cbd8;
+  margin: 30px;
+  font-size: 30px;
+}
+
+.zivotopis a:hover {
+  background-color: #10cbd8;
+  color: white;
+  padding: 5px 10px;
+}
+.zivotopis p {
+  font-size: 15px;
+  text-align: center;
+}
+
+
+/*Cestování*/
+
+hr{
+  border-bottom: 1px solid #10cbd8;
+  margin-top: 25px; 
+}
+
+
+
+.fotogalerie{
+  padding: 0;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: #333;
+}
+.fotogalerie li {
+  display: inline-block;
+}
+
+.fotogalerie a {
+  color: #10cbd8;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.fotogalerie a:hover, a:focus {
+  background-color:#10cbd8;
+  color: white;
+}
+
+.newyork, .cina {
+  display: flex;
+  justify-content: center;
+
+}
+.newyork img{
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 15px;
+ }
+
+.cina img {
+   width: 30%;
+   margin-left: 5px;
+ }
+
+.london img {
+   width: 100%;
+ }
+
+ .sipka {
+   bottom: 0;
+   right: 10px;
+   position: fixed;
+   }
+
+ .sipka img {
+   background-color: #10cbd8;
+   width: 40px;
+ }
+ 
+
