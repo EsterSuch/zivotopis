@@ -228,8 +228,6 @@ hr{
   margin-top: 25px; 
 }
 
-
-
 .fotogalerie{
   padding: 0;
   margin-top: 80px;
@@ -257,10 +255,10 @@ hr{
 .newyork, .cina {
   display: flex;
   justify-content: center;
+ }
 
-}
 .newyork img{
-  width: 40%;
+  width: 45%;
   margin: 0 auto;
   padding-top: 15px;
  }
